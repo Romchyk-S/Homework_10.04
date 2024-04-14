@@ -23,7 +23,7 @@ def func_0():
     
     inflexion_point_y = (inflexion_point_x**3/3)-2*inflexion_point_x**2+3*inflexion_point_x+5/3
     
-    label = f"$Concave \ down: \ x \in (-\infty;{inflexion_point_x}) \ \ Concave \ up: \ x \in ({inflexion_point_x};+\infty)$"
+    label = f"$Concave \ down: x \in (-\infty;{inflexion_point_x}) \ \ Concave \ up: x \in ({inflexion_point_x};+\infty)$"
     
     title = "$y = (x^3/3)-2*x^2+3*x+5/3$"
 
@@ -61,7 +61,7 @@ def func_2():
 
     inflexion_point_x = -3, 2
     
-    label = f"Concave \ down: $(-\infty;{inflexion_point_x[0]}) \cup ({inflexion_point_x[1]};+\infty) \ \ Concave up: ({inflexion_point_x[0]};{inflexion_point_x[1]})$"
+    label = f"$Concave \ down: x \in (-\infty;{inflexion_point_x[0]}) \cup ({inflexion_point_x[1]};+\infty) \ \ Concave \ up: x \in ({inflexion_point_x[0]};{inflexion_point_x[1]})$"
     
     inflexion_point_y = inflexion_point_x[0]+36*inflexion_point_x[0]**2-2*inflexion_point_x[0]**3-inflexion_point_x[0]**4,  inflexion_point_x[1]+36*inflexion_point_x[1]**2-2*inflexion_point_x[1]**3-inflexion_point_x[1]**4
     
@@ -83,7 +83,7 @@ def func_3():
     
     inflexion_point_y = None
     
-    label = "$Concave \ up: \ x \in \Re$"
+    label = "$Concave \ up: x \in \Re$"
 
     title = "$y = (x+1)^4+e^x$"
     
@@ -103,7 +103,7 @@ def func_4():
     
     inflexion_point_y = inflexion_point_x**3 - 5*inflexion_point_x**2 + 3*inflexion_point_x - 5
     
-    label = f"$Concave up: ({inflexion_point_x};+\infty) \ \ Concave \ down: (-\infty;{inflexion_point_x})$"
+    label = f"$Concave \ up: x \in ({inflexion_point_x};+\infty) \ \ Concave \ down: x \in (-\infty;{inflexion_point_x})$"
     
     title = "$y = x^3 - 5x^2 + 3x - 5$"
     
