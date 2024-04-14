@@ -61,7 +61,7 @@ def func_2():
 
     inflexion_point_x = -3, 2
     
-    label = f"Concave \ up: $(-\infty;{inflexion_point_x[0]}) \cup ({inflexion_point_x[1]};+\infty) \ \ Concave down: ({inflexion_point_x[0]};{inflexion_point_x[1]})$"
+    label = f"Concave \ down: $(-\infty;{inflexion_point_x[0]}) \cup ({inflexion_point_x[1]};+\infty) \ \ Concave up: ({inflexion_point_x[0]};{inflexion_point_x[1]})$"
     
     inflexion_point_y = inflexion_point_x[0]+36*inflexion_point_x[0]**2-2*inflexion_point_x[0]**3-inflexion_point_x[0]**4,  inflexion_point_x[1]+36*inflexion_point_x[1]**2-2*inflexion_point_x[1]**3-inflexion_point_x[1]**4
     
